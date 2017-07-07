@@ -1,14 +1,14 @@
 # Explanation of the Analysis Files
 
-## Submission CheckList
+## Submission CheckList  
 - run_analysis.R
 - README.MD
 - CodeBook.MD
 
-## Output
+## Output  
 - tidyData.txt
 
-## Processing Steps
+## Processing Steps  
 - Merges the training and the test sets to create one data set.
 - Extracts only the measurements on the mean and standard deviation for each measurement.
 - Uses descriptive activity names to name the activities in the data set

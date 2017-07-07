@@ -81,4 +81,4 @@ dataAvg <- aggregate(dataFiltered[, 3:ncol(dataFiltered)]
                      ,by=list(subject = dataFiltered$Subject,AnalysisLabel = dataFiltered$ActivityLabel)
                      ,mean)
 
-write.table(dataAvg, "tidyData.txt")
+write.table(dataAvg, "tidyData.txt") 
